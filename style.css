@@ -1,0 +1,30 @@
+.container
+{
+    width: 450px!important;
+    /* background: transparent;*/
+    border-radius:20px ; 
+    padding: 30px 40px;
+    /* border:5px solid rgba(255,255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+}
+.glow {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue glowing effect */
+}
+
+.result {
+    font-weight: bold;
+    color: black;
+}
+
+.error {
+    font-weight: bold;
+    color:red;
+}
+
+.text
+{
+    font-weight: bold;
+    color: black;
+}
+
