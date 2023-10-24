@@ -28,13 +28,13 @@
 .darkbluefont
 {
 color: darkblue!important;
-/*  */
 text-align: center;
 }
 /* make font bold and italic of matching status */
 .bold-italic {
     font-weight: bold;
     font-style: italic;
+    text-transform:uppercase;
 }
 
 
