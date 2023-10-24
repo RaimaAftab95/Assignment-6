@@ -28,9 +28,15 @@
 .darkbluefont
 {
 color: darkblue!important;
-font-weight: bold;
+/*  */
 text-align: center;
 }
+/* make font bold and italic of matching status */
+.bold-italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
 
 /* responsive on mobile screen */
 /* Remove the maximum width*/
