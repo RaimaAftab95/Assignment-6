@@ -36,23 +36,27 @@ document.getElementById("orangered").classList.remove("bold-italic");
     {
         status="UnderWeight";
     document.getElementById("yellow").classList.add("bold-italic");
+    document.getElementById("result").style.backgroundColor="yellow";
     } 
      else
     if (bmi >= 18.5 && bmi <= 24.9) 
      {
         status ="Normal";
         document.getElementById("lightgreen").classList.add("bold-italic");
+        document.getElementById("result").style.backgroundColor="lightgreen";
     } 
     else
     if (bmi >= 25 && bmi <= 39.9) 
     {
         status ="Overweight";
         document.getElementById("orange").classList.add("bold-italic");
+        document.getElementById("result").style.backgroundColor="orange";
     } 
     if (bmi >= 40)
      {
         status = "Obese"; 
         document.getElementById("orangered").classList.add("bold-italic");
+        document.getElementById("result").style.backgroundColor="orangered";
         
 
     } 
