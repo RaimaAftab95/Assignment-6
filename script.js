@@ -5,9 +5,9 @@ function calculateBMI()
     const feet = parseFloat(document.getElementById("heightFeet").value);
     const inches = parseFloat(document.getElementById("heightInches").value);
     const errorMessage = document.getElementById("error");
- console.log(weight);
- console.log( feet);
- console.log(inches);
+    console.log(weight);
+    console.log( feet);
+    console.log(inches);
     //checks if any of the user input values (weight,feet,inches) is not a valid number (text/empty input fields)
     if (isNaN(weight) || isNaN(feet) || isNaN(inches)|| weight === 0 || feet === 0)
      {

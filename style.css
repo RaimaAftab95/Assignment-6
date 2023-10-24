@@ -1,31 +1,49 @@
 .container
 {
-    width: 450px!important;
-    /* background: transparent;*/
+    width:90%;
+    max-width:450px!important;
     border-radius:20px ; 
     padding: 30px 40px;
-    /* border:5px solid rgba(255,255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 10px rgba(0,0,0,0.2); */
-}
-.glow {
-    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue glowing effect */
 }
 
+/* Blue glowing effect */
+.glow {
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); 
+}
+
+/* error */
 .error {
     font-weight: bold;
     color:red;
 }
 
+/* label and h1 text */
 .text
 {
     font-weight: bold;
     color: black;
 }
 
+/* all other text */
 .darkbluefont
 {
 color: darkblue!important;
 font-weight: bold;
 text-align: center;
+}
+
+/* responsive on mobile screen */
+/* Remove the maximum width*/
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        max-width: none; 
+    }
+    .chart
+    {
+        width:25%;
+        display: inline-block;
+        font-size: x-small;
+        text-align: center;
+    }
 }
