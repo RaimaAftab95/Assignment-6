@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center mt-5"> 
         <label class="label text-black w-25 text">Weight:</label>
-        <select class="form-select w-50 border-dark-blue glow" id="weight">
+        <select class="form-select w-50 border-dark-blue glow darkbluefont" id="weight">
             <option value="0">kg</option>
             <script>
                 for (let i = 1; i <= 600; i++) {
@@ -31,7 +31,7 @@
     <div class="row">
         <div class="col-12 d-flex justify-content-center align-items-center mt-5">
             <label class="label text-black w-25 text" >Height:</label>
-            <select class="form-select w-25 border-dark-blue glow" id="heightFeet">
+            <select class="form-select w-25 border-dark-blue glow darkbluefont" id="heightFeet">
                 <option value="0">ft</option>
                 <script>
                     for (let i = 1; i <= 12; i++) {
@@ -39,7 +39,7 @@
                     }
                 </script>
             </select>
-            <select class="form-select w-25 border-dark-blue glow m-1" id="heightInches">
+            <select class="form-select w-25 border-dark-blue glow m-1 darkbluefont" id="heightInches">
                 <option value="">inches</option>
                 <script>
                     for (let i = 0; i <= 12; i++) {
@@ -50,24 +50,24 @@
            
         </div>
             <div>
-                <p class="error mt-5" id="error"></p>
+                <p class="error mt-5 text-center" id="error"></p>
         </div>
     </div>
 <div class="row">
     <div class="col-12 my-5">
         <div class="d-flex align-items-center justify-content-center" >
-    <button onclick="calculateBMI()" class="btn border-dark-blue glow rounded-2 p-2">Calculate BMI</button>
+    <button onclick="calculateBMI()" class="btn border-dark-blue glow color-dark-blue rounded-2 p-2 darkbluefont">Calculate BMI</button>
 </div>
-    <div class="result border-dark-blue glow rounded-2 mt-5 p-3" id="result"></div>
+    <div class="text border-dark-blue glow rounded-2 mt-5 p-3" id="result"></div>
 </div>
 </div>
 </div>
 <div class="row">
-<div class="col-12 status-chart d-flex">
-    <div class="status-label" style="background-color: #ff3333;">Mild Thinness (17 - 18.5)</div>
-    <div class="status-label" style="background-color: #ffaa80;">Normal (18.5 - 25)</div>
-    <div class="status-label" style="background-color: #ffdf80;">Overweight (25 - 30)</div>
-    <div class="status-label" style="background-color: #bfff80;">Obese Class I (30 - 35)</div>
+<div class="col-12  d-flex">
+    <div class="status-label darkbluefont fw-5 p-1 m-1" style="background-color:yellow;">UnderWeight (<=18.4)</div>
+    <div class="status-label darkbluefont p-1 m-1" style="background-color:lightgreen;">Normal (18.5-24.9)</div>
+    <div class="status-label darkbluefont p-1 m-1" style="background-color:orange ;">Overweight (25.0-39.9)</div>
+    <div class="status-label darkbluefont p-1 m-1" style="background-color:orangered;">Obese (>=40.0)</div>
 </div>
 </div>
 </div>

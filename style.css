@@ -12,11 +12,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Blue glowing effect */
 }
 
-.result {
-    font-weight: bold;
-    color: black;
-}
-
 .error {
     font-weight: bold;
     color:red;
@@ -28,3 +23,9 @@
     color: black;
 }
 
+.darkbluefont
+{
+color: darkblue!important;
+font-weight: bold;
+text-align: center;
+}
